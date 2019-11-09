@@ -1,15 +1,15 @@
 const Discord = require('discord.js');
-const request = require('request')
+const request = require('request');
 const client = new Discord.Client();
 
 //enter token of your burner account. this account will be the one joining the servers
-const token = ''
+const token = '';
 
 //enter the token of your account that has access to viewing the channel were discord invites will be
-const main = ''
+const main = '';
 
 //enter ids of channels that discord invites will appear in. seperate each id by a comma. these should be strings
-const invite_channels = ['']
+const invite_channels = [''];
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);

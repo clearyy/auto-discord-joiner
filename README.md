@@ -1,5 +1,5 @@
 # auto-discord-joiner
-A discord.py and disocrd.js automatic invite joiner.
+discord.py and discord.js automatic invite joiners.
 
 # Node Joiner
 Required modules are discord.js and request
